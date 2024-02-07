@@ -82,7 +82,7 @@ const Donation = () => {
       setSecondDivError("");
 
       const txRef = generateTxRef(); // Function to generate random 10 digit alphanumeric id
-      const redirectUrl = `/donation`; // Construct redirect URL with tx_ref
+      const redirectUrl = `https://scfn-luth-transplant.sicklecellfoundation.com/donation`; // Construct redirect URL with tx_ref
 
 
       const formData = new FormData();
