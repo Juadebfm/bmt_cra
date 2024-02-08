@@ -9,8 +9,8 @@ import Services from "./pages/Services";
 import Homepage from "./pages/Homepage";
 import Contact from "./pages/Contact";
 import Aboutpage from './pages/Aboutpage';
-import WhatToExpect from "./components/Lcomp/WhatToExpect";
 import NewsDetails from './pages/news/[id]/NewsDetails';
+import WhatToExpect from "./pages/WhatToExpect";
 
 export default function App() {
   return (

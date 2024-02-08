@@ -24,7 +24,7 @@ const Researchcomp = () => {
           trials; stay updated on the latest medical innovations enhancing our
           BMT procedures. Join us in shaping the future of healthcare through
           knowledge and progress.
-          <Link href="/research" className="pl-1">
+          <Link to="/research" className="pl-1">
             <span className="font-bold text-primary_red pl-2 cursor-pointer">
               Learn More
             </span>

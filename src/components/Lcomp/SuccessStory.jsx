@@ -21,7 +21,7 @@ const SuccessStory = () => {
       {showVideo ? (
         <div className="relative pb-10">
           <button
-            className="text-white text-xl md:text-3xl bg-primary_red rounded-full p-2 md:p-5 w-7 md:w-10 h-7 md:h-10 flex items-center justify-center absolute left-3 md:left-32 top-6 md:top-10 hover:box_shadow_hover trans_animate"
+            className="text-white text-xl md:text-3xl bg-primary_red rounded-full p-2 md:p-5 w-7 md:w-10 h-7 md:h-10 flex items-center justify-center absolute left-3 md:left-24 lg:left-32 top-6 md:-top-12 lg:top-10 hover:box_shadow_hover trans_animate"
             onClick={handleClose}
           >
             X

@@ -87,7 +87,7 @@ const NewsDetails = () => {
                   <img
                     key={index}
                     src={image.file_url}
-                    alt={`Image ${index + 1}`}
+                    alt={`${index + 1}`}
                     className="w-40 h-40 object-cover m-2 h-[260px] w-[350px] rounded-2xl shadow-md border border-slate-100"
                   />
                 ))}

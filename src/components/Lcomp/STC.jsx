@@ -26,7 +26,7 @@ const STC = () => {
           Disease and Leukemia treated with BMT. Stay informed and engaged with
           upcoming webinars and workshops, fostering knowledge of BMT and
           related health topics.
-          <Link href="/education" className="pl-2">
+          <Link to="/education" className="pl-2">
             <span className="font-bold text-primary_red cursor-pointer">
               Learn More
             </span>

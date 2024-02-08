@@ -73,7 +73,7 @@ const Education = () => {
         </div>
       </section>
       <Badge />
-      <div className="flex flex-col lg:flex-row items-center justify-center px-[25px] lg:px-16 gap-20 mt-16 my-16 lg:my-36">
+      <div className="flex flex-col lg:flex-row items-center justify-center px-[25px]  md:px-10 lg:px-16 gap-20 mt-16 my-16 lg:my-36">
         <div className="w-full lg:w-1/2 h-full">
           <img
             src="./assets/bmt/stc2.png"

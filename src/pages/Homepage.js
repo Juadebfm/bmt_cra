@@ -44,15 +44,15 @@ const Homepage = () => {
 
   return (
     <section className="w-screen lg:mt-24">
-      <div className="relative pt-2">
+      <div className="relative md:pt-[6.5rem] lg:pt-0 h-max">
         <Slider slides={slides} />
         <SmallScreenSlider slidesSm={slidesSm} />
-        <div className="absolute top-[25%] md:top-[25%] z-20 w-full lg:w-[55%] h-auto px-[1.5rem] sm:px-16 text-white">
+        <div className="absolute top-[25%] md:top-[35%] lg:top-[25%] z-20 w-full lg:w-[55%] h-auto px-[1.5rem] sm:px-16 text-white">
           <h1 className="w-full lg:w-full text-[34px] md:text-[38px] lg:text-[48px] leading-[1.2] md:leading-[1] lg:leading-[3.4rem] tracking-wide capitalize text-center lg:text-start font-bold text_shadow_">
             Providing, safe, quality, affordable healthcare for persons living
             with sickle cell disorder
           </h1>
-          <p className="text-[18px] lg:text-[20px] text-center sm:text-start md:text-center lg:text-start 3xl:text-center  my-8 md:my-4 lg:my-8 w-[90%] lg:w-full mx-auto lg:mx-0 text_shadow_ tracking-wide leading-normal md:leading-[1] lg:leading-normal">
+          <p className="text-[18px] lg:text-[20px] text-center sm:text-start md:text-center lg:text-start 3xl:text-center  my-8 md:my-4 lg:my-8 w-[90%] lg:w-full mx-auto lg:mx-0 text_shadow_ tracking-wide leading-normal md:leading-[1.4] lg:leading-normal">
             Be part of a mission dedicated to making a lasting impact in
             healthcare delivery.
           </p>

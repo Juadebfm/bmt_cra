@@ -1,6 +1,5 @@
-
-import {Link} from "react-router-dom";
-import React, { useEffect, useState, useRef } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useState, useRef } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 import Button from "../Lcomp/Button";
 import { CgMenuHotdog } from "react-icons/cg";
@@ -8,10 +7,8 @@ import { CgClose } from "react-icons/cg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useNavigate, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-
   // Function for animation
   useEffect(() => {
     AOS.init({ once: true });
@@ -28,8 +25,6 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false); // State to manage menu visibility
 
   const menuRef = useRef(null); // Reference to the entire menu area
-
-  
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -105,15 +100,14 @@ const Navbar = () => {
   const [currentURL, setCurrentURL] = useState("");
 
   const location = useLocation();
-const pathname = location.pathname;
-
+  const pathname = location.pathname;
 
   useEffect(() => {
-    setCurrentURL(window.location.to); // Store current URL when component mounts
+    setCurrentURL(window.location.href); // Store current URL when component mounts
   }, []);
 
   useEffect(() => {
-    setCurrentURL(window.location.to); // Update current URL when pathname changes
+    setCurrentURL(window.location.href); // Update current URL when pathname changes
   }, [pathname]);
 
   const handleLinkClick = () => {
@@ -128,7 +122,7 @@ const pathname = location.pathname;
         isScrolled ? "opacity-100" : "" // Apply opacity class based on scroll state
       }`}
     >
-      <Link to="/">
+      <Link to="/" onClick={handleLinkClick}>
         <div className="w-full h-max sm:w-auto sm:h-auto">
           <img src="/assets/bmt/main_logo.png" alt="BMT Logo" className="" />
         </div>
@@ -138,7 +132,6 @@ const pathname = location.pathname;
       {showMenu && (
         <ul
           data-aos="fade-right"
-          ref={menuRef} // Set the reference to the entire menu area
           className="absolute left-0 top-[100%] bg-white text-[#232323] flex flex-col items-start justify-start gap-8 group:cursor-pointer font-Lexend w-max md:w-[40%] h-max rounded-r-lg px-10 py-12 md:px-14 shadow-md border border-slate-100 text-base"
         >
           <Link

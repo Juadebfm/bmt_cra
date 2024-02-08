@@ -32,7 +32,7 @@ const WhatToExpect = () => {
           Welcome to our BMT hub. Learn about procedures, find resources, and be
           inspired by patient stories - your comprehensive guide to a successful
           transplant journey.
-          <Link href="/whattoexpect" className="pl-2">
+          <Link to="/whattoexpect" className="pl-2">
             <span className="font-bold text-primary_red cursor-pointer">
               Learn More
             </span>

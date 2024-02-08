@@ -30,7 +30,7 @@ const Services = () => {
         <div
           data-aos="fade-left"
           data-aos-duration="1000"
-          className="w-full lg:w-1/2 flex flex-col justify-center px-[24px] lg:px-0"
+          className="w-full lg:w-1/2 flex flex-col justify-center px-[24px] md:px-16 lg:px-0"
         >
           <h2 className="w-full text-[34px] lg:text-[44px] leading-[1.2] capitalize font-[600] text-primary_red text-start">
             Our Multi-Disciplinary Services

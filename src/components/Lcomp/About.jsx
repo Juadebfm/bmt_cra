@@ -25,7 +25,7 @@ const About = () => {
           from other countries travelling in to access SAFE, QUALITY, MORE
           AFFORDABLE BONE MARROW TRANSPLANTATION AT THE SCFN/LUTH/VUMC
           BMT CENTRE, LAGOS.
-          <Link href="/about" className="pl-2">
+          <Link to="/about" className="pl-2">
             <span className="font-bold text-primary_red cursor-pointer">
               Learn More
             </span>

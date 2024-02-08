@@ -121,7 +121,7 @@ const LatestNews = ({ title = "Latest News & Updates", className = "" }) => {
   };
 
   return (
-    <section className="h-max px-[25px] sm:px-16 mt-10 w-full flex flex-col items-center justify-start ">
+    <section className="h-max px-[25px] sm:px-16 md:px-10 lg:px-16 mt-10 w-full flex flex-col items-center justify-start ">
       <h1 className="text-[34px] lg:text-[44px] w-full leading-[1.2] capitalize font-[600] text-primary_red text-center mb-10">
         {title}
       </h1>
@@ -131,7 +131,7 @@ const LatestNews = ({ title = "Latest News & Updates", className = "" }) => {
           Loading...
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-6 lg:gap-10 mb-20">
           {newsData.map((newsItem) => (
             <div
               key={newsItem.id}

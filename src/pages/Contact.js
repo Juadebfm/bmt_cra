@@ -35,7 +35,7 @@ const Contact = () => {
             </Link>
             <Link
               to="https://twitter.com/sicklecellnig"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="flex items-center justify-start w-full h-max gap-2"
             >
               <CiTwitter className="text-3xl" />
@@ -48,7 +48,7 @@ const Contact = () => {
             </Link>
             <Link
               to="https://instagram.com/sicklecellfoundationng?igshid=MzMyNGUyNmU2YQ=="
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="flex items-center justify-start w-full h-max gap-2"
             >
               <PiInstagramLogoLight className="text-3xl" />
@@ -61,7 +61,7 @@ const Contact = () => {
             </Link>
             <Link
               to="https://www.facebook.com/sicklecellfoundation?mibextid=ZbWKwL"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="flex items-center justify-start w-full h-max gap-2"
             >
               <PiFacebookLogo className="text-3xl" />
@@ -74,7 +74,7 @@ const Contact = () => {
             </Link>
             <Link
               to="mailto:info@sicklecellfoundation.com"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               className="flex items-center justify-start w-full h-max gap-2"
             >
               <CiMail className="text-3xl" />

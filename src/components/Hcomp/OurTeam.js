@@ -12,7 +12,7 @@ const OurTeam = () => {
     <>
       <section
         data-aos="fade-up"
-        className="flex flex-col border-y p-[25px] lg:p-0 mt-10"
+        className="flex flex-col border-y p-[25px] md:px-10 lg:p-0 mt-10"
       >
         <div>
           <h1 className="font-lexend font-semibold text-[44px] lg:text-[64px] p-0 lg:p-20 pb-5 text-primary_red leading-normal text-center lg:text-start">
@@ -81,7 +81,7 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <div className="ml-0 lg:ml-40">
+        <div className="ml-0 lg:ml-40 md:px-7 lg:px-0">
           <h3 className="font-semibold text-[18px] lg:text-[22px] text-primary_dark font-lexend leading-normal mt-10 text-center lg:text-start uppercase">
             LUTH Management Team
           </h3>

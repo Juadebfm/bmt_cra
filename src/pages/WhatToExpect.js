@@ -1,10 +1,10 @@
-import Button from "../../components/Lcomp/Button";
+import Button from "../components/Lcomp/Button";
 import { Link } from "react-router-dom";
 
-import Badge from "../../components/Lcomp/Badge";
-import Questions from "../../components/Lcomp/Questions";
-import SuccessStory from "../../components/Lcomp/SuccessStory";
-import LatestNews from "../../components/Hcomp/LatestNews";
+import Badge from "../components/Lcomp/Badge";
+import Questions from "../components/Lcomp/Questions";
+import SuccessStory from "../components/Lcomp/SuccessStory";
+import LatestNews from "../components/Hcomp/LatestNews";
 
 const WhatToExpect = () => {
   return (

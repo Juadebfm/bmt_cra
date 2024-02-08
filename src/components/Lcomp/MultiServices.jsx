@@ -23,7 +23,7 @@ const MultiServices = () => {
           care. From Social Workers, Psychologists and Counsellors to
           Anaesthetists, we are here for our patients’ well-being, providing
           services and support before and after transplantation. <br />
-          <Link href="/services">
+          <Link to="/services">
             <span className="font-bold text-primary_red cursor-pointer">
               Learn More
             </span>

@@ -50,8 +50,8 @@ const Aboutpage = () => {
           )}
         </div>
       </div>
-      <section className="flex flex-col lg:flex-row items-center justify-center gap-1 w-full px-[25px] lg:px-14">
-        <div className="m-10 w-full lg:w-1/2">
+      <section className="flex flex-col lg:flex-row items-center justify-center gap-1 w-full px-[25px] lg:px-14 md:mt-10 lg:mt-2">
+        <div className="m-10 w-full lg:w-1/2 md:px-10 lg:px-0">
           <img
             src="/assets/bmt/treatment_team.png"
             alt="Aboutpage Our BMT"
@@ -60,11 +60,11 @@ const Aboutpage = () => {
             className="w-full"
           />
         </div>
-        <div className="w-full lg:w-1/2 block h-max lg:h-[670px] my-auto pt-[40px] cursor-pointer overflow-y-auto">
+        <div className="w-full lg:w-1/2 block h-max lg:h-[670px] my-auto pt-[40px] md:px-10 lg:px-0 cursor-pointer overflow-y-auto">
           <p className={lineClamp}>
             <span className="w-full text-[17px] font-[300] font-lexend text-primary_dark leading-tight mt-4 text-justify lg:text-start">
               <span className="capitalize font-bold text-primary_tomato_red block text-[26px] mb-2">
-                Aboutpage the SCFN | LUTH | VUMC Partnership
+                SCFN | LUTH | VUMC Partnership
               </span>{" "}
               Stem Cell Transplantation or Bone Marrow Transplantation (BMT) is
               the known cure for sickle cell disorder. Sickle Cell Foundation

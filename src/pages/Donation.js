@@ -9,7 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useNavigate } from "react-router-dom";
 
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 
 const Donation = () => {
   console.log("Donation component rendered");
@@ -200,7 +200,14 @@ const handleVerificationSuccess = (response) => {
   // Extracting the relevant data from the response
   const transactionData = response?.response?.data;
 
- alert("syccess")
+  // Show a success message using SweetAlert2
+  Swal.fire({
+    icon: "success",
+    title: "Thanks",
+    text: "Donation Successful",
+    confirmButtonText: "OK",
+    confirmButtonColor: "#DF3331",
+  });
 };
 
 
@@ -251,9 +258,9 @@ const handleVerificationSuccess = (response) => {
       <div id="donate" className="my-8"></div>
       <div className="flex flex-col-reverse lg:flex-row items-center justify-center px-[25px] md:px-14 lg:px-16 gap-10 md:gap-20 mt-20">
         <div className="w-full lg:w-1/2 box_shadow p-[1.5rem] lg:p-[3rem] rounded-2xl">
-          <div className="w-full m-auto flex items-center justify-center">
+          <div className="w-full m-auto flex flex-col md:flex-row items-center justify-center gap-3 md:gap-0">
             <button
-              className={`w-1/2 py-[14px] ${
+              className={`w-full md:w-1/2 py-[14px] ${
                 activeButton === "enterAmount"
                   ? "bg-primary_red text-white font-bold"
                   : "text-primary_red font-bold"
@@ -263,7 +270,7 @@ const handleVerificationSuccess = (response) => {
               Enter Amount
             </button>
             <button
-              className={`w-1/2 py-[14px] ${
+              className={`w-full md:w-1/2 py-[14px] ${
                 activeButton === "addInformation"
                   ? "bg-primary_red text-white font-bold"
                   : "text-primary_red font-bold"
