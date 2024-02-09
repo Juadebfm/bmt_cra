@@ -17,17 +17,17 @@ export default function App() {
     <div className="overflow-x-hidden w-full text-base font-Lexend scroll_snap scrollbar-thin scrollbar-thumb-primary_dark scrollbar-track-primary_faded_grey/50">
       <Router>
         <Navbar />
-        <Routes>
-          <Route exact path="/" element={<Homepage />} />
-          <Route path="/about" element={<Aboutpage/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/donation" element={<Donation />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/research" element={<Research />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/whattoexpect" element={<WhatToExpect />} />
-          <Route path="/news/:id" element={<NewsDetails />} />
+        <Routes basename={"scfn-luth-transplant.sicklecellfoundation.com/"}>
+          <Route exact path="scfn-luth-transplant.sicklecellfoundation.com/" element={<Homepage />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/about" element={<Aboutpage/>} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/contact" element={<Contact/>} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/donation" element={<Donation />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/education" element={<Education />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/faq" element={<FAQ />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/research" element={<Research />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/services" element={<Services />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/whattoexpect" element={<WhatToExpect />} />
+          <Route path="scfn-luth-transplant.sicklecellfoundation.com/news/:id" element={<NewsDetails />} />
         </Routes>
         <Footer />
       </Router>
