@@ -1,9 +1,5 @@
 <div align="center">
 
-  <!-- <div>
-    <img src="https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
-  </div> -->
-
   <h3 align="center">SCFN/LUTH Official Website (BMT Project)</h3>
 
    <div align="center">
