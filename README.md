@@ -1,8 +1,8 @@
 <div align="center">
 
-  <div>
+  <!-- <div>
     <img src="https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
-  </div>
+  </div> -->
 
   <h3 align="center">SCFN/LUTH Official Website (BMT Project)</h3>
 
@@ -24,9 +24,9 @@ This repository contains the code corresponding to the build, using minimal stac
 
 ## <a name="introduction">🤖 Information</a>
 
-The project was initial built with the NextJS Stack. But then we downgraded to React, reasons for this is we encountered a huge challenge during deployment. We realized that individual links in the web application was not working, for example of the official webpage is `https://scfn-luth-transplant.sicklecellfoundation.com/` so say we want to send someone to a particular page, say the donation page? `https://scfn-luth-transplant.sicklecellfoundation.com/donation` the link breaks.
+The project was initially built with the NextJS Stack. But then we downgraded to React, reasons for this is we encountered a huge challenge during deployment. We realized that individual links in the web application was not working, for example, the official webpage is `https://scfn-luth-transplant.sicklecellfoundation.com/` so say we want to send someone to a particular page, say the donation page? `https://scfn-luth-transplant.sicklecellfoundation.com/donation` the link breaks.
 
-I tried everything because we initially thought the issues was from react-router / the routing functionality implemented on the page. In the end the issue was because we did add a .HTCAccess file to the c-panel's public_html file.
+I tried everything because we initially thought the issues was from react-router / the routing functionality implemented on the page. In the end the issue was because we did not add .HTCAccess file to the c-panel's public_html file.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
