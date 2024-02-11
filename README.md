@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS_14-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
+  </div>
 
-## Available Scripts
+  <h3 align="center">SCFN/LUTH Official Website (BMT Project)</h3>
 
-In the project directory, you can run:
+   <div align="center">
+     This project was built for Sickle Cell Foundation Of Nigeria X Lagos State University Of Technology.
+    </div>
+</div>
 
-### `npm start`
+## 📋 <a name="table">Table of Contents</a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚨 Introduction
 
-### `npm test`
+This repository contains the code corresponding to the build, using minimal stacks, nothing too crazy. React JS and TailwindCSS.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <a name="introduction">🤖 Information</a>
 
-### `npm run build`
+The project was initial built with the NextJS Stack. But then we downgraded to React, reasons for this is we encountered a huge challenge during deployment. We realized that individual links in the web application was not working, for example of the official webpage is `https://scfn-luth-transplant.sicklecellfoundation.com/` so say we want to send someone to a particular page, say the donation page? `https://scfn-luth-transplant.sicklecellfoundation.com/donation` the link breaks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I tried everything because we initially thought the issues was from react-router / the routing functionality implemented on the page. In the end the issue was because we did add a .HTCAccess file to the c-panel's public_html file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-### `npm run eject`
+- React JS
+- TailwindCSS
+- AOS Animation Library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## <a name="features">🔋 Features</a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👉 **Flutterwave** Added payment integration for Flutterwave, users can donate in Naira and dollars on the platform.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## <a name="quick-start">🤸 Quick Start</a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Follow these steps to set up the project locally on your machine.
 
-## Learn More
+**Prerequisites**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Make sure you have the following installed on your machine:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Code Splitting
+**Cloning the Repository**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/your-username/your-project.git
+cd your-project
+```
 
-### Analyzing the Bundle Size
+**Installation**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install the project dependencies using npm:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Running the Project**
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+#
