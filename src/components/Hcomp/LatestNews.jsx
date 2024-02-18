@@ -13,7 +13,7 @@ const LatestNews = ({ title = "Latest News & Updates", className = "" }) => {
     const fetchNews = async () => {
       try {
         const apiKey =
-        "eyJpdiI6IjJKbm5aeE9lNTRNWlc2a1pKK3NuUlE9PSIsInZhbHVlIjoiQ2JKTEdpcmpoNUZwUTVwMnJVZHlSR1lTMmgvV1hGRk5zdWhzbTZyM29VVlJhK3VVb21BcFJHbzU5aXFvT2NlUiIsIm1hYyI6IjUwMDFlM2VhM2IwYTFlYTY3YTE3YTQ2MTJmZWE1NTE1Yjc2YTExOGIzYWE2YTE4MzZlNTk0OTAwZDhmZGI4MTUiLCJ0YWciOiIifQ==";
+          "eyJpdiI6IjJKbm5aeE9lNTRNWlc2a1pKK3NuUlE9PSIsInZhbHVlIjoiQ2JKTEdpcmpoNUZwUTVwMnJVZHlSR1lTMmgvV1hGRk5zdWhzbTZyM29VVlJhK3VVb21BcFJHbzU5aXFvT2NlUiIsIm1hYyI6IjUwMDFlM2VhM2IwYTFlYTY3YTE3YTQ2MTJmZWE1NTE1Yjc2YTExOGIzYWE2YTE4MzZlNTk0OTAwZDhmZGI4MTUiLCJ0YWciOiIifQ==";
 
         if (!apiKey) {
           console.error("API key not found!");
@@ -211,9 +211,10 @@ const LatestNews = ({ title = "Latest News & Updates", className = "" }) => {
                     backgroundImage: `linear-gradient(to top, ${getRandomBgColor()} 50%, transparent 100%), url(${
                       newsItem.events_news_front_image
                     })`,
-                    backgroundSize: "cover",
+                    backgroundSize: "100% 100%",
                     backgroundPosition: "center",
-                    minHeight: "100%",
+                    backgroundRepeat: "no-repeat",
+                    height: "360px",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "flex-end",
@@ -221,7 +222,7 @@ const LatestNews = ({ title = "Latest News & Updates", className = "" }) => {
                     color: "#fff",
                     transition: "transform 0.3s ease-in-out",
                   }}
-                  className="rounded-md overflow-hidden h-[450px] md:h-[500px] object-cover"
+                  className="rounded-md overflow-hidden h-[252px] sm:h-[390px] object-contain"
                 >
                   <div className="py-8 px-4">
                     <span
